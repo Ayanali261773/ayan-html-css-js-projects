@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: antiquewhite;
+  color: #10100b;
+  padding: 20px;
+  font-size: large;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  background: #222;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ffd700;
+}
+.gmail{
+  float: right;
+  font-size: small;
+  margin-right: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ffd700;
+}
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #563423;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #333333;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.project-card {
+  background: #222;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 4px solid #ffd700;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #00bcd4;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #0097a7;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+  background-color: rgb(208, 184, 0);
+  height: 50px;
+}
+@media (min-width:333)and(max-width:900){
+    .gmail{
+      text-align: center;
+      margin-top: 50px;
+  }
+}
